@@ -91,18 +91,18 @@
         + A UIViewController that having the options list which are used to select the range,
         level, category, timer value and the questions count.
 
-        Contains an action method "info" which is used to give the information about the current Viewcontroller.
+        + Contains an action method "info" which is used to give the information about the current Viewcontroller.
 
-        Contains an action method "Done" which is used to redirect to the initial screen.
+        + Contains an action method "Done" which is used to redirect to the initial screen.
 
     Main.storyboard
 
-        Interface Builder file that defines the iPhone interface for the application. 
+        + Interface Builder file that defines the iPhone interface for the application. 
 
 
     Info.plist
 
-        The scheme file for the settings bundle.
+        + The scheme file for the settings bundle.
 
  ==================================================================
 
