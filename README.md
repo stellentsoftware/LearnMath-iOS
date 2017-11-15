@@ -5,13 +5,13 @@
 
 ### DESCRIPTION: ###
 
-    Learn Math is a perfect app for the students of age 6 to 12. 
-    It’s all about to improve the mathematics ability of students. 
-    This app provides fun kind of environment for the students to learn the mathematics in an easy way.
+ Learn Math is a perfect app for the students of age 6 to 12. 
+ It’s all about to improve the mathematics ability of students. 
+ This app provides fun kind of environment for the students to learn the mathematics in an easy way.
 
-    Students can easily learn addition, subtraction, multiplication and division by using this application. 
-    LearnMath application is also useful app for teachers and parents to teach their students and children to learn 
-    the mathematics in a prominent way.
+ Students can easily learn addition, subtraction, multiplication and division by using this application. 
+ LearnMath application is also useful app for teachers and parents to teach their students and children to learn 
+ the mathematics in a prominent way.
 
 
 
