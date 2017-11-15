@@ -1,5 +1,5 @@
- ### Learn Math ###
- 
+
+![Learn Math](https://github.com/stellentsoftware/LearnMath-iOS/blob/master/Logo.png "")
 
  ==================================================================
 
