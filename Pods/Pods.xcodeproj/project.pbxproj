@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172E1457C0A629E879E11CD9E64E5574 /* Cheers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1D70071F41AA112C50D241615AD7BE /* Cheers-dummy.m */; };
+		17A135303D3BF51ECF8039C9899EA50C /* Pods-LearnMath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 751AC047FA0887FF6B2FD31603765698 /* Pods-LearnMath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		372DE693B2CFCF8A89B005590434979A /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A14644FE21CCD480F5786AB0C3D455E /* ImageGenerator.swift */; };
+		3E5206FD1B04CE52AD9F7D7462937D3D /* Cheers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96EE9FED6C1252BAD0C6FD62867F60 /* Cheers.swift */; };
+		42A09E94875F3030EB20AFB327A4BC1B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = E381CCF0F416C095C1812FB4C4011A2B /* Config.swift */; };
+		4BC0F37CEBDDF7AC43CCBAA163DA1F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5243297311785B31107875F02EF9A5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8B06AFEECFC58AA709E91AD1AF8B735A /* Cheers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3F6A00914998E81456ED0785F7C789 /* Cheers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6CC5F90F9109F48F6A5804E76C96A5D /* Pods-LearnMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA9C9ADA1E11810FD85DE793129AD51 /* Pods-LearnMath-dummy.m */; };
+		DCFE0CF7B7F7C806339EE3CE9462AB55 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E995B8C9DCB06270F971EEE19D19DB /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C985FC1F8523DEE023171A7D1D1AC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C279FA6C6C73D2194A8215BAE29137F6;
+			remoteInfo = Cheers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BFAF8708D8E65315B7CB90583E9F34 /* Pods-LearnMath-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LearnMath-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CA9C9ADA1E11810FD85DE793129AD51 /* Pods-LearnMath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LearnMath-dummy.m"; sourceTree = "<group>"; };
+		1C0A39E44EC6C1DDA944347FA9C839E7 /* Cheers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cheers.xcconfig; sourceTree = "<group>"; };
+		1F96EE9FED6C1252BAD0C6FD62867F60 /* Cheers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cheers.swift; path = Sources/Cheers.swift; sourceTree = "<group>"; };
+		24F913266D1FDAC23F9778D815BEC0C2 /* Pods-LearnMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearnMath.debug.xcconfig"; sourceTree = "<group>"; };
+		26AAB37F5890C0CCBCB399D96197C387 /* Cheers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cheers.framework; path = Cheers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28395F9BE6BCB9228A4FE141EC79A755 /* Cheers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Cheers.modulemap; sourceTree = "<group>"; };
+		2A14644FE21CCD480F5786AB0C3D455E /* ImageGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGenerator.swift; path = Sources/ImageGenerator.swift; sourceTree = "<group>"; };
+		2B8559F988AB89B64B77327CBEC6CA00 /* Pods-LearnMath-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LearnMath-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E1D70071F41AA112C50D241615AD7BE /* Cheers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cheers-dummy.m"; sourceTree = "<group>"; };
+		585CC6453DB0F89DFDB89A4D7A2AA93B /* Pods-LearnMath-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LearnMath-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68903B45952321594CD2BDB8CDC0C16D /* Pods-LearnMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearnMath.release.xcconfig"; sourceTree = "<group>"; };
+		6F3F6A00914998E81456ED0785F7C789 /* Cheers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cheers-umbrella.h"; sourceTree = "<group>"; };
+		751AC047FA0887FF6B2FD31603765698 /* Pods-LearnMath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LearnMath-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7E995B8C9DCB06270F971EEE19D19DB /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		B603A0D0FF34B9CA2CC4AFB871B9D53C /* Cheers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cheers-prefix.pch"; sourceTree = "<group>"; };
+		C0D2208A751F386481F06FF1CCBD60CD /* Pods_LearnMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LearnMath.framework; path = "Pods-LearnMath.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EF1D88A73BF05F8F06F4B76133FB0D /* Pods-LearnMath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LearnMath.modulemap"; sourceTree = "<group>"; };
+		E37E5356DFAD01F74D0AA08AF45B24FD /* Pods-LearnMath-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LearnMath-resources.sh"; sourceTree = "<group>"; };
+		E381CCF0F416C095C1812FB4C4011A2B /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/Config.swift; sourceTree = "<group>"; };
+		EE7C6FEF44EE7494CD5C55C137D52AF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CD09CB66EEFF23E18750332276B4D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03234DA9985613623605807192D039B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC0F37CEBDDF7AC43CCBAA163DA1F6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F4FA6E19D29AB185F933AC96ACE174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5243297311785B31107875F02EF9A5F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51EEE5C022000E7366D3FBD4C009229D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28395F9BE6BCB9228A4FE141EC79A755 /* Cheers.modulemap */,
+				1C0A39E44EC6C1DDA944347FA9C839E7 /* Cheers.xcconfig */,
+				4E1D70071F41AA112C50D241615AD7BE /* Cheers-dummy.m */,
+				B603A0D0FF34B9CA2CC4AFB871B9D53C /* Cheers-prefix.pch */,
+				6F3F6A00914998E81456ED0785F7C789 /* Cheers-umbrella.h */,
+				F6CD09CB66EEFF23E18750332276B4D0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cheers";
+			sourceTree = "<group>";
+		};
+		7655DA6779DD0D543342BD28F366C100 /* Pods-LearnMath */ = {
+			isa = PBXGroup;
+			children = (
+				EE7C6FEF44EE7494CD5C55C137D52AF8 /* Info.plist */,
+				C9EF1D88A73BF05F8F06F4B76133FB0D /* Pods-LearnMath.modulemap */,
+				02BFAF8708D8E65315B7CB90583E9F34 /* Pods-LearnMath-acknowledgements.markdown */,
+				2B8559F988AB89B64B77327CBEC6CA00 /* Pods-LearnMath-acknowledgements.plist */,
+				0CA9C9ADA1E11810FD85DE793129AD51 /* Pods-LearnMath-dummy.m */,
+				585CC6453DB0F89DFDB89A4D7A2AA93B /* Pods-LearnMath-frameworks.sh */,
+				E37E5356DFAD01F74D0AA08AF45B24FD /* Pods-LearnMath-resources.sh */,
+				751AC047FA0887FF6B2FD31603765698 /* Pods-LearnMath-umbrella.h */,
+				24F913266D1FDAC23F9778D815BEC0C2 /* Pods-LearnMath.debug.xcconfig */,
+				68903B45952321594CD2BDB8CDC0C16D /* Pods-LearnMath.release.xcconfig */,
+			);
+			name = "Pods-LearnMath";
+			path = "Target Support Files/Pods-LearnMath";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8DA346E846FBFE5C94CB9F65A573A4A4 /* Pods */,
+				B8A9C0962190C29C46E1BA0FACCFA0DA /* Products */,
+				FCBF104A2ECF20D315E0B9EDE7CBC4FA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA346E846FBFE5C94CB9F65A573A4A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F5145F6BE90634127B6C8C8EB4C7903 /* Cheers */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F5145F6BE90634127B6C8C8EB4C7903 /* Cheers */ = {
+			isa = PBXGroup;
+			children = (
+				1F96EE9FED6C1252BAD0C6FD62867F60 /* Cheers.swift */,
+				E381CCF0F416C095C1812FB4C4011A2B /* Config.swift */,
+				A7E995B8C9DCB06270F971EEE19D19DB /* Extensions.swift */,
+				2A14644FE21CCD480F5786AB0C3D455E /* ImageGenerator.swift */,
+				51EEE5C022000E7366D3FBD4C009229D /* Support Files */,
+			);
+			name = Cheers;
+			path = Cheers;
+			sourceTree = "<group>";
+		};
+		B8A9C0962190C29C46E1BA0FACCFA0DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26AAB37F5890C0CCBCB399D96197C387 /* Cheers.framework */,
+				C0D2208A751F386481F06FF1CCBD60CD /* Pods_LearnMath.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FCBF104A2ECF20D315E0B9EDE7CBC4FA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7655DA6779DD0D543342BD28F366C100 /* Pods-LearnMath */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		679D41644968EDDAAEC9E52BFC8246B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A135303D3BF51ECF8039C9899EA50C /* Pods-LearnMath-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724FE8AD8DE721D022587197BC90D8B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B06AFEECFC58AA709E91AD1AF8B735A /* Cheers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47DCFF067E7B88BCD8ED1898AD50EE0F /* Pods-LearnMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994D4BEF4FEF7EEA32DB6ED2C2EE9E59 /* Build configuration list for PBXNativeTarget "Pods-LearnMath" */;
+			buildPhases = (
+				64096C58F00267C1C6DD6396A703DDE3 /* Sources */,
+				07F4FA6E19D29AB185F933AC96ACE174 /* Frameworks */,
+				679D41644968EDDAAEC9E52BFC8246B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0175C212DF11964BC29DFD51D98823C /* PBXTargetDependency */,
+			);
+			name = "Pods-LearnMath";
+			productName = "Pods-LearnMath";
+			productReference = C0D2208A751F386481F06FF1CCBD60CD /* Pods_LearnMath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C279FA6C6C73D2194A8215BAE29137F6 /* Cheers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0B83140F526E1220348FD89F149497 /* Build configuration list for PBXNativeTarget "Cheers" */;
+			buildPhases = (
+				8C2147A6785212C2AAFE87E1137D9A9B /* Sources */,
+				03234DA9985613623605807192D039B3 /* Frameworks */,
+				724FE8AD8DE721D022587197BC90D8B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cheers;
+			productName = Cheers;
+			productReference = 26AAB37F5890C0CCBCB399D96197C387 /* Cheers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B8A9C0962190C29C46E1BA0FACCFA0DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C279FA6C6C73D2194A8215BAE29137F6 /* Cheers */,
+				47DCFF067E7B88BCD8ED1898AD50EE0F /* Pods-LearnMath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64096C58F00267C1C6DD6396A703DDE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CC5F90F9109F48F6A5804E76C96A5D /* Pods-LearnMath-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2147A6785212C2AAFE87E1137D9A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172E1457C0A629E879E11CD9E64E5574 /* Cheers-dummy.m in Sources */,
+				3E5206FD1B04CE52AD9F7D7462937D3D /* Cheers.swift in Sources */,
+				42A09E94875F3030EB20AFB327A4BC1B /* Config.swift in Sources */,
+				DCFE0CF7B7F7C806339EE3CE9462AB55 /* Extensions.swift in Sources */,
+				372DE693B2CFCF8A89B005590434979A /* ImageGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0175C212DF11964BC29DFD51D98823C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cheers;
+			target = C279FA6C6C73D2194A8215BAE29137F6 /* Cheers */;
+			targetProxy = 5C985FC1F8523DEE023171A7D1D1AC82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		038FD8201CC9305B1EB045AB8437C2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68903B45952321594CD2BDB8CDC0C16D /* Pods-LearnMath.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LearnMath/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LearnMath/Pods-LearnMath.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LearnMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		281B276A180DD4212F74ACCF1FF96042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0A39E44EC6C1DDA944347FA9C839E7 /* Cheers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cheers/Cheers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cheers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cheers/Cheers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cheers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AE68326BAA4AA368A3CDE546346D27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0A39E44EC6C1DDA944347FA9C839E7 /* Cheers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cheers/Cheers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cheers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cheers/Cheers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cheers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83637B52EFDDC399C7A38B51BF7FD824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F913266D1FDAC23F9778D815BEC0C2 /* Pods-LearnMath.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LearnMath/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LearnMath/Pods-LearnMath.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LearnMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994D4BEF4FEF7EEA32DB6ED2C2EE9E59 /* Build configuration list for PBXNativeTarget "Pods-LearnMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83637B52EFDDC399C7A38B51BF7FD824 /* Debug */,
+				038FD8201CC9305B1EB045AB8437C2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0B83140F526E1220348FD89F149497 /* Build configuration list for PBXNativeTarget "Cheers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281B276A180DD4212F74ACCF1FF96042 /* Debug */,
+				6AE68326BAA4AA368A3CDE546346D27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
